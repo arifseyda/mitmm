@@ -7,7 +7,7 @@ This code don't downgrade https to http every time because some sites have HSTS 
 
 Before the starting code, you must write iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 10000 and iptables -t nat -A PREROUTING -p udp --destination-port 53 -j REDIRECT --to-port 53 
 
-For working the code: python SingleTerminal.py -i ip adress of the target which you want to attack -g gateway of the target which you want to attack -n  interface of the target which you want to attack -f where are you install the dns2proxy
+For working the code: python SingleTerminal.py -i [ip adress of the target which you want to attack] -g [gateway of the target which you want to attack] -n  [interface of the target which you want to attack] -f [where are you install the dns2proxy]
 
 For example: python SingleTerminal.py -n eth0 -i 192.168.31.131 -g 192.168.31.2 -f /opt/dns2proxy
 
