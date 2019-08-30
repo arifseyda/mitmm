@@ -12,3 +12,6 @@ For working the code: python SingleTerminal.py -i ip adress of the target which 
 For example: python SingleTerminal.py -n eth0 -i 192.168.31.131 -g 192.168.31.2 -f /opt/dns2proxy
 
 If do you want learn what is your target ip adress or gateway, you use the NetworkScanner.py
+
+If you use the code and downgrade the https protocol to http and enter the username and password, you learn this usarname and password look like the below .png
+![filename](https://user-images.githubusercontent.com/47140243/64020656-2607e180-cb00-11e9-9c5d-935f7a7a8f5b.png)
